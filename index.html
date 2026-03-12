@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Coração da Arena</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reset básico de margens e uso da nova fonte */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Configuração do Background via CSS */
+        body {
+            background-image: url('https://cdn.meutimao.com.br/_upload/wallpapers/treino_na_arena_corinthians_nm_1920x1080.jpg');
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-attachment: fixed; /* O fundo fica fixo ao rolar a página */
+            color: #ffffff;
+        }
+
+        /* Camada escura para dar contraste e destacar o conteúdo */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6); /* Preto com 60% de opacidade */
+            min-height: 100vh; /* Ocupa 100% da altura da tela */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Cartão com efeito Glassmorphism (Vidro) */
+        .content-card {
+            background: rgba(255, 255, 255, 0.1); /* Fundo branco quase transparente */
+            backdrop-filter: blur(12px); /* Efeito de desfoque no fundo */
+            -webkit-backdrop-filter: blur(12px); /* Para navegadores Safari */
+            border-radius: 16px; /* Bordas arredondadas */
+            padding: 50px 40px;
+            max-width: 650px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
+        }
+
+        /* Estilização da Tipografia */
+        .content-card h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        .content-card p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            color: #f0f0f0;
+            font-weight: 300;
+        }
+        
+        /* Remove a margem do último parágrafo para o cartão não ficar com espaço sobrando embaixo */
+        .content-card p:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay">
+        
+        <main class="content-card">
+            <h1>O Som das Arquibancadas</h1>
+            
+            <p>
+                Sinta a energia de estar na casa da Fiel. Este espaço foi recriado não apenas para mostrar uma imagem, mas para transmitir a atmosfera do estádio através de um design web imersivo e moderno.
+            </p>
+            
+            <p>
+                A Neo Química Arena não é apenas um palco para o futebol, é um verdadeiro caldeirão. É o lugar onde milhares de vozes se unem em um só ritmo, empurrando o time do primeiro ao último minuto e transformando o jogo em uma festa em preto e branco que arrepia qualquer apaixonado por futebol.
+            </p>
+        </main>
+
+    </div>
+
+</body>
+</html>
